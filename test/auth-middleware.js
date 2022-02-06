@@ -10,7 +10,7 @@ describe('Auth middleware', function() {
       get: function(headerName) {
         return null;
       }
-    };
+    }; 
     expect(authMiddleware.bind(this, req, {}, () => {})).to.throw(
       'Not authenticated.'
     );

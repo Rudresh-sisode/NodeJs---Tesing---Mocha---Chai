@@ -9,7 +9,7 @@ describe('Auth Controller', function() {
   before(function(done) {
     mongoose
       .connect(
-        'mongodb+srv://maximilian:fmFLrH6d0DjMxWcg@cluster0-ntrwp.mongodb.net/test-messages?retryWrites=true'
+        '<Add your mongodb url here>'
       )
       .then(result => {
         const user = new User({
